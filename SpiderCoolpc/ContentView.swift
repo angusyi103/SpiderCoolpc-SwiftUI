@@ -13,16 +13,14 @@ struct ContentView: View {
     var tutors: [Tutor] = testData
     
     var body: some View {
-        NavigationView {
-            List(tutors) { tutor in
-                NavigationLink(
-                    destination: TutorDetail(name: tutor.name, headline: tutor.headline, bio: tutor.bio),
-                    label: {
-                        TutorCell(tutor: tutor)
-                    })
-            }
-            .navigationBarTitle(Text("Tutors"))
+        List(tutors) { tutor in
+            NavigationLink(
+                destination: TutorDetail(name: tutor.name, headline: tutor.headline, bio: tutor.bio),
+                label: {
+                    TutorCell(tutor: tutor)
+                })
         }
+        .navigationBarTitle(Text("Tutors"), displayMode: .large)
     }
 }
 
