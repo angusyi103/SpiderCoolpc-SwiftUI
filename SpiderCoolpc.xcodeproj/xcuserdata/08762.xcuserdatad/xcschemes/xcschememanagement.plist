@@ -3,11 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
+	<dict/>
+	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>SpiderCoolpc.xcscheme_^#shared#^_</key>
+		<key>85B5CEEA262ABDFA000B7FF0</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85B5CF00262ABDFD000B7FF0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85B5CF0B262ABDFE000B7FF0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

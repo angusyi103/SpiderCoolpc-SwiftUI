@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22C828A81E240E59FBBF9F04 /* Pods_SpiderCoolpc_SpiderCoolpcUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78187FD0DA716163A06491F /* Pods_SpiderCoolpc_SpiderCoolpcUITests.framework */; };
+		855022272632988100767946 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 855022262632988100767946 /* SwiftPackageProductDependency */; };
 		858BE138263162D900FBAEED /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858BE137263162D900FBAEED /* Tutor.swift */; };
 		858BE13D263162E200FBAEED /* Tutor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858BE13C263162E200FBAEED /* Tutor.xcassets */; };
 		858BE1422631657000FBAEED /* TutorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858BE1412631657000FBAEED /* TutorDetail.swift */; };
 		858BE14726316A6E00FBAEED /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858BE14626316A6E00FBAEED /* HomePage.swift */; };
-		85A489262630641D00667AD3 /* SpiderPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 85A489252630641D00667AD3 /* SpiderPackage */; };
+		858BE14F263271C000FBAEED /* GPUInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858BE14E263271C000FBAEED /* GPUInfo.swift */; };
 		85B5CEEF262ABDFA000B7FF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5CEEE262ABDFA000B7FF0 /* AppDelegate.swift */; };
 		85B5CEF1262ABDFA000B7FF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5CEF0262ABDFA000B7FF0 /* SceneDelegate.swift */; };
 		85B5CEF3262ABDFA000B7FF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5CEF2262ABDFA000B7FF0 /* ContentView.swift */; };
@@ -20,6 +22,8 @@
 		85B5CEFB262ABDFD000B7FF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B5CEF9262ABDFD000B7FF0 /* LaunchScreen.storyboard */; };
 		85B5CF06262ABDFE000B7FF0 /* SpiderCoolpcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5CF05262ABDFE000B7FF0 /* SpiderCoolpcTests.swift */; };
 		85B5CF11262ABDFE000B7FF0 /* SpiderCoolpcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5CF10262ABDFE000B7FF0 /* SpiderCoolpcUITests.swift */; };
+		BA65873509EA0D8E92B67726 /* Pods_SpiderCoolpc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6877EAA1C33E114DB82D5991 /* Pods_SpiderCoolpc.framework */; };
+		D3D32C4CF277820E61CD38DF /* Pods_SpiderCoolpcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77191F3CB0B171D5CF73ABBC /* Pods_SpiderCoolpcTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		650425AE90F2392020CAC33D /* Pods-SpiderCoolpc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiderCoolpc.release.xcconfig"; path = "Target Support Files/Pods-SpiderCoolpc/Pods-SpiderCoolpc.release.xcconfig"; sourceTree = "<group>"; };
+		6877EAA1C33E114DB82D5991 /* Pods_SpiderCoolpc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiderCoolpc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77191F3CB0B171D5CF73ABBC /* Pods_SpiderCoolpcTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiderCoolpcTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		858BE137263162D900FBAEED /* Tutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
 		858BE13C263162E200FBAEED /* Tutor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Tutor.xcassets; sourceTree = "<group>"; };
 		858BE1412631657000FBAEED /* TutorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorDetail.swift; sourceTree = "<group>"; };
 		858BE14626316A6E00FBAEED /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		858BE14E263271C000FBAEED /* GPUInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPUInfo.swift; sourceTree = "<group>"; };
 		85A4892A263068A200667AD3 /* Package */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Package; sourceTree = "<group>"; };
 		85B5CEEB262ABDFA000B7FF0 /* SpiderCoolpc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiderCoolpc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B5CEEE262ABDFA000B7FF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +67,12 @@
 		85B5CF0C262ABDFE000B7FF0 /* SpiderCoolpcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpiderCoolpcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B5CF10262ABDFE000B7FF0 /* SpiderCoolpcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderCoolpcUITests.swift; sourceTree = "<group>"; };
 		85B5CF12262ABDFE000B7FF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD45DFA66EE00C25389C898 /* Pods-SpiderCoolpc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiderCoolpc.debug.xcconfig"; path = "Target Support Files/Pods-SpiderCoolpc/Pods-SpiderCoolpc.debug.xcconfig"; sourceTree = "<group>"; };
+		BAB51D94FF83D609B15DE443 /* Pods-SpiderCoolpcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiderCoolpcTests.debug.xcconfig"; path = "Target Support Files/Pods-SpiderCoolpcTests/Pods-SpiderCoolpcTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C383F89638BF0C7F4CB1A9B8 /* Pods-SpiderCoolpc-SpiderCoolpcUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiderCoolpc-SpiderCoolpcUITests.debug.xcconfig"; path = "Target Support Files/Pods-SpiderCoolpc-SpiderCoolpcUITests/Pods-SpiderCoolpc-SpiderCoolpcUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD2A4A823E6367523C5B8B32 /* Pods-SpiderCoolpcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiderCoolpcTests.release.xcconfig"; path = "Target Support Files/Pods-SpiderCoolpcTests/Pods-SpiderCoolpcTests.release.xcconfig"; sourceTree = "<group>"; };
+		E78187FD0DA716163A06491F /* Pods_SpiderCoolpc_SpiderCoolpcUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiderCoolpc_SpiderCoolpcUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8056ABDC8E7C7DC9527C425 /* Pods-SpiderCoolpc-SpiderCoolpcUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiderCoolpc-SpiderCoolpcUITests.release.xcconfig"; path = "Target Support Files/Pods-SpiderCoolpc-SpiderCoolpcUITests/Pods-SpiderCoolpc-SpiderCoolpcUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85A489262630641D00667AD3 /* SpiderPackage in Frameworks */,
+				855022272632988100767946 /* BuildFile in Frameworks */,
+				BA65873509EA0D8E92B67726 /* Pods_SpiderCoolpc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D32C4CF277820E61CD38DF /* Pods_SpiderCoolpcTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,15 +97,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C828A81E240E59FBBF9F04 /* Pods_SpiderCoolpc_SpiderCoolpcUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		85A489242630641D00667AD3 /* Frameworks */ = {
+		17589002E92D04BFA7123760 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6877EAA1C33E114DB82D5991 /* Pods_SpiderCoolpc.framework */,
+				E78187FD0DA716163A06491F /* Pods_SpiderCoolpc_SpiderCoolpcUITests.framework */,
+				77191F3CB0B171D5CF73ABBC /* Pods_SpiderCoolpcTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,7 +122,8 @@
 				85B5CF04262ABDFE000B7FF0 /* SpiderCoolpcTests */,
 				85B5CF0F262ABDFE000B7FF0 /* SpiderCoolpcUITests */,
 				85B5CEEC262ABDFA000B7FF0 /* Products */,
-				85A489242630641D00667AD3 /* Frameworks */,
+				EE6D8E21BD36190086CB12DA /* Pods */,
+				17589002E92D04BFA7123760 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +146,7 @@
 				85B5CEF2262ABDFA000B7FF0 /* ContentView.swift */,
 				858BE137263162D900FBAEED /* Tutor.swift */,
 				858BE1412631657000FBAEED /* TutorDetail.swift */,
+				858BE14E263271C000FBAEED /* GPUInfo.swift */,
 				85B5CEF4262ABDFD000B7FF0 /* Assets.xcassets */,
 				858BE13C263162E200FBAEED /* Tutor.xcassets */,
 				85B5CEF9262ABDFD000B7FF0 /* LaunchScreen.storyboard */,
@@ -160,6 +182,20 @@
 			path = SpiderCoolpcUITests;
 			sourceTree = "<group>";
 		};
+		EE6D8E21BD36190086CB12DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAD45DFA66EE00C25389C898 /* Pods-SpiderCoolpc.debug.xcconfig */,
+				650425AE90F2392020CAC33D /* Pods-SpiderCoolpc.release.xcconfig */,
+				C383F89638BF0C7F4CB1A9B8 /* Pods-SpiderCoolpc-SpiderCoolpcUITests.debug.xcconfig */,
+				E8056ABDC8E7C7DC9527C425 /* Pods-SpiderCoolpc-SpiderCoolpcUITests.release.xcconfig */,
+				BAB51D94FF83D609B15DE443 /* Pods-SpiderCoolpcTests.debug.xcconfig */,
+				CD2A4A823E6367523C5B8B32 /* Pods-SpiderCoolpcTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85B5CF15262ABDFE000B7FF0 /* Build configuration list for PBXNativeTarget "SpiderCoolpc" */;
 			buildPhases = (
+				CE84E03A6135AC0E2885A335 /* [CP] Check Pods Manifest.lock */,
 				85B5CEE7262ABDFA000B7FF0 /* Sources */,
 				85B5CEE8262ABDFA000B7FF0 /* Frameworks */,
 				85B5CEE9262ABDFA000B7FF0 /* Resources */,
+				6B4107FE4113F30DAD1CFF5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,7 +215,7 @@
 			);
 			name = SpiderCoolpc;
 			packageProductDependencies = (
-				85A489252630641D00667AD3 /* SpiderPackage */,
+				855022262632988100767946 /* SwiftPackageProductDependency */,
 			);
 			productName = SpiderCoolpc;
 			productReference = 85B5CEEB262ABDFA000B7FF0 /* SpiderCoolpc.app */;
@@ -187,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85B5CF18262ABDFE000B7FF0 /* Build configuration list for PBXNativeTarget "SpiderCoolpcTests" */;
 			buildPhases = (
+				022D4889FF619CD84E74D7D6 /* [CP] Check Pods Manifest.lock */,
 				85B5CEFD262ABDFD000B7FF0 /* Sources */,
 				85B5CEFE262ABDFD000B7FF0 /* Frameworks */,
 				85B5CEFF262ABDFD000B7FF0 /* Resources */,
@@ -205,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85B5CF1B262ABDFE000B7FF0 /* Build configuration list for PBXNativeTarget "SpiderCoolpcUITests" */;
 			buildPhases = (
+				F26ACCF113F075234AC8386C /* [CP] Check Pods Manifest.lock */,
 				85B5CF08262ABDFE000B7FF0 /* Sources */,
 				85B5CF09262ABDFE000B7FF0 /* Frameworks */,
 				85B5CF0A262ABDFE000B7FF0 /* Resources */,
+				B316EA1B3E1F54200C2E1266 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,6 +330,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		022D4889FF619CD84E74D7D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpiderCoolpcTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B4107FE4113F30DAD1CFF5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpiderCoolpc/Pods-SpiderCoolpc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpiderCoolpc/Pods-SpiderCoolpc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpiderCoolpc/Pods-SpiderCoolpc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B316EA1B3E1F54200C2E1266 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpiderCoolpc-SpiderCoolpcUITests/Pods-SpiderCoolpc-SpiderCoolpcUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpiderCoolpc-SpiderCoolpcUITests/Pods-SpiderCoolpc-SpiderCoolpcUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpiderCoolpc-SpiderCoolpcUITests/Pods-SpiderCoolpc-SpiderCoolpcUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE84E03A6135AC0E2885A335 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpiderCoolpc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F26ACCF113F075234AC8386C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpiderCoolpc-SpiderCoolpcUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85B5CEE7262ABDFA000B7FF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -299,6 +443,7 @@
 				858BE1422631657000FBAEED /* TutorDetail.swift in Sources */,
 				85B5CEEF262ABDFA000B7FF0 /* AppDelegate.swift in Sources */,
 				85B5CEF1262ABDFA000B7FF0 /* SceneDelegate.swift in Sources */,
+				858BE14F263271C000FBAEED /* GPUInfo.swift in Sources */,
 				85B5CEF3262ABDFA000B7FF0 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +609,7 @@
 		};
 		85B5CF16262ABDFE000B7FF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD45DFA66EE00C25389C898 /* Pods-SpiderCoolpc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -484,6 +630,7 @@
 		};
 		85B5CF17262ABDFE000B7FF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650425AE90F2392020CAC33D /* Pods-SpiderCoolpc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -504,6 +651,7 @@
 		};
 		85B5CF19262ABDFE000B7FF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAB51D94FF83D609B15DE443 /* Pods-SpiderCoolpcTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -525,6 +673,7 @@
 		};
 		85B5CF1A262ABDFE000B7FF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2A4A823E6367523C5B8B32 /* Pods-SpiderCoolpcTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -546,6 +695,7 @@
 		};
 		85B5CF1C262ABDFE000B7FF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C383F89638BF0C7F4CB1A9B8 /* Pods-SpiderCoolpc-SpiderCoolpcUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -565,6 +715,7 @@
 		};
 		85B5CF1D262ABDFE000B7FF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8056ABDC8E7C7DC9527C425 /* Pods-SpiderCoolpc-SpiderCoolpcUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -624,9 +775,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		85A489252630641D00667AD3 /* SpiderPackage */ = {
+		855022262632988100767946 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = SpiderPackage;
+			productName = Package;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

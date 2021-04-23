@@ -6,6 +6,7 @@ target 'SpiderCoolpc' do
   use_frameworks!
 	
 	pod 'Kanna', '~> 5.2.2'
+	pod 'Alamofire', '~> 5.2'
 
   # Pods for SpiderCoolpc
 
