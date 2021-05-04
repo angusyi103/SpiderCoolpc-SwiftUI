@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		22C828A81E240E59FBBF9F04 /* Pods_SpiderCoolpc_SpiderCoolpcUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78187FD0DA716163A06491F /* Pods_SpiderCoolpc_SpiderCoolpcUITests.framework */; };
-		855022272632988100767946 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 855022262632988100767946 /* SwiftPackageProductDependency */; };
+		855022272632988100767946 /* Package in Frameworks */ = {isa = PBXBuildFile; productRef = 855022262632988100767946 /* Package */; };
+		8550224A2635AD2F00767946 /* SpiderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855022492635AD2F00767946 /* SpiderPage.swift */; };
 		858BE138263162D900FBAEED /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858BE137263162D900FBAEED /* Tutor.swift */; };
 		858BE13D263162E200FBAEED /* Tutor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858BE13C263162E200FBAEED /* Tutor.xcassets */; };
 		858BE1422631657000FBAEED /* TutorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858BE1412631657000FBAEED /* TutorDetail.swift */; };
@@ -47,6 +48,7 @@
 		650425AE90F2392020CAC33D /* Pods-SpiderCoolpc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiderCoolpc.release.xcconfig"; path = "Target Support Files/Pods-SpiderCoolpc/Pods-SpiderCoolpc.release.xcconfig"; sourceTree = "<group>"; };
 		6877EAA1C33E114DB82D5991 /* Pods_SpiderCoolpc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiderCoolpc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77191F3CB0B171D5CF73ABBC /* Pods_SpiderCoolpcTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiderCoolpcTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		855022492635AD2F00767946 /* SpiderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderPage.swift; sourceTree = "<group>"; };
 		858BE137263162D900FBAEED /* Tutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
 		858BE13C263162E200FBAEED /* Tutor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Tutor.xcassets; sourceTree = "<group>"; };
 		858BE1412631657000FBAEED /* TutorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorDetail.swift; sourceTree = "<group>"; };
@@ -80,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				855022272632988100767946 /* BuildFile in Frameworks */,
+				855022272632988100767946 /* Package in Frameworks */,
 				BA65873509EA0D8E92B67726 /* Pods_SpiderCoolpc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +149,7 @@
 				858BE137263162D900FBAEED /* Tutor.swift */,
 				858BE1412631657000FBAEED /* TutorDetail.swift */,
 				858BE14E263271C000FBAEED /* GPUInfo.swift */,
+				855022492635AD2F00767946 /* SpiderPage.swift */,
 				85B5CEF4262ABDFD000B7FF0 /* Assets.xcassets */,
 				858BE13C263162E200FBAEED /* Tutor.xcassets */,
 				85B5CEF9262ABDFD000B7FF0 /* LaunchScreen.storyboard */,
@@ -192,7 +195,6 @@
 				BAB51D94FF83D609B15DE443 /* Pods-SpiderCoolpcTests.debug.xcconfig */,
 				CD2A4A823E6367523C5B8B32 /* Pods-SpiderCoolpcTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -215,7 +217,7 @@
 			);
 			name = SpiderCoolpc;
 			packageProductDependencies = (
-				855022262632988100767946 /* SwiftPackageProductDependency */,
+				855022262632988100767946 /* Package */,
 			);
 			productName = SpiderCoolpc;
 			productReference = 85B5CEEB262ABDFA000B7FF0 /* SpiderCoolpc.app */;
@@ -445,6 +447,7 @@
 				85B5CEF1262ABDFA000B7FF0 /* SceneDelegate.swift in Sources */,
 				858BE14F263271C000FBAEED /* GPUInfo.swift in Sources */,
 				85B5CEF3262ABDFA000B7FF0 /* ContentView.swift in Sources */,
+				8550224A2635AD2F00767946 /* SpiderPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -775,7 +778,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		855022262632988100767946 /* SwiftPackageProductDependency */ = {
+		855022262632988100767946 /* Package */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Package;
 		};

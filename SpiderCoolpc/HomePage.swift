@@ -28,7 +28,7 @@ struct HomePage: View {
                     
                     Spacer()
                     NavigationLink(
-                        destination: /*@START_MENU_TOKEN@*/Text("Destination")/*@END_MENU_TOKEN@*/,
+                        destination: SpiderPage(),
                         label: {
                             Text("Spider")
                                 .background(Color.init("Tiffany"))
