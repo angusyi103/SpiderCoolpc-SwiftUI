@@ -8,11 +8,25 @@
 import SwiftUI
 
 struct SpiderPage: View {
+    
+    @ObservedObject var gpuDataHandler = GPUDataHandler()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        Button("getdata", action: {
-                getCoolpcGPUData()
-        })
+        Button("Refresh", action: {
+            gpuDataHandler.getCoolpcGPUDatas()
+        }).onAppear {
+            gpuDataHandler.getCoolpcGPUDatas()
+        }
+        
+        List {
+            let headerGpuInfo = GPUInfo(model: "型號", brand: "廠牌", MHz: "MHz", length: "長度", warranty: "保固", price: "價錢")
+            Section(header: GPUListCell(gpu: headerGpuInfo)) {
+                ForEach(gpuDataHandler.gpuInfoAry) { gpu in
+                    GPUListCell(gpu: gpu)
+//                        .frame(height: 20, alignment: .center)
+                }
+            }
+        }.environment(\.defaultMinListRowHeight, 20)
     }
 }
 
@@ -23,3 +37,41 @@ struct SpiderPage_Previews: PreviewProvider {
     }
 }
 #endif
+
+struct GPUListCell: View {
+    let gpu: GPUInfo
+    var body: some View {
+        HStack {
+            Group {
+                Text(gpu.brand ?? "")
+                    .foregroundColor(gpu.available ?? true ? .green : .red)
+                Divider()
+            }
+            Group {
+                Text(gpu.model ?? "")
+                    .foregroundColor(gpu.available ?? true ? .green : .red)
+                Divider()
+            }
+            Group {
+                Text(gpu.MHz ?? "")
+                    .foregroundColor(gpu.available ?? true ? .green : .red)
+                Divider()
+            }
+            Group {
+                Text(gpu.length ?? "")
+                    .foregroundColor(gpu.available ?? true ? .green : .red)
+                Divider()
+            }
+            Group {
+                Text(gpu.warranty ?? "")
+                    .foregroundColor(gpu.available ?? true ? .green : .red)
+                Divider()
+            }
+            Group {
+                Text(gpu.price ?? "")
+                    .foregroundColor(gpu.available ?? true ? .green : .red)
+                Divider()
+            }
+        }
+    }
+}
