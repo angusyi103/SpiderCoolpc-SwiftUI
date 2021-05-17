@@ -63,23 +63,46 @@ class GPUDataHandler: ObservableObject {
                         let warranty = String(specification?.first(where: { $0.contains("年") }) ?? "年")
                         let price = String(gpuDetail.slice(from: "$", to: "◆")?.trimmingCharacters(in: .whitespaces) ?? "0")
                         gpuInfoAry.append(GPUInfo(model: model, available: available, brand: brand, MHz: MHz, length: length, warranty: warranty, price: price))
+                        let font = UIFont.systemFont(ofSize: 15)
+                        GpuInfoStringMaxLength.shared.saveMaxLengthString(model: model.widthOfString(usingFont: font) , brand: brand.widthOfString(usingFont: font) , MHz: MHz.widthOfString(usingFont: font), length: length.widthOfString(usingFont: font), warranty: warranty.widthOfString(usingFont: font), price: price.widthOfString(usingFont: font))
                     }
                 })
                 
-                print(gpuInfoAry)
+//                print(gpuInfoAry)
             }
         }
     }
 }
 
-extension String {
-    func slice(from: String, to: String) -> String? {
-        return (range(of: from)?.upperBound).flatMap { substringFrom in
-            (range(of: to, range: substringFrom..<endIndex)?.lowerBound).map { substringTo in
-                String(self[substringFrom..<substringTo])
-            }
+class GpuInfoStringMaxLength {
+    static let shared = GpuInfoStringMaxLength()
+    
+    var model: CGFloat?
+    var brand: CGFloat?
+    var MHz: CGFloat?
+    var length: CGFloat?
+    var warranty: CGFloat?
+    var price: CGFloat?
+    
+    func saveMaxLengthString(model: CGFloat, brand: CGFloat, MHz: CGFloat, length: CGFloat, warranty: CGFloat, price: CGFloat) {
+        if self.model ?? 0 < model {
+            self.model = model
+            print(self.model!)
+        }
+        if self.brand ?? 0 < brand {
+            self.brand = brand
+        }
+        if self.MHz ?? 0 < MHz {
+            self.MHz = MHz
+        }
+        if self.length ?? 0 < length {
+            self.length = length
+        }
+        if self.warranty ?? 0 < warranty {
+            self.warranty = warranty
+        }
+        if self.price ?? 0 < price {
+            self.price = price
         }
     }
 }
-
-
