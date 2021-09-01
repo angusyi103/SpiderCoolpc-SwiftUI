@@ -68,7 +68,7 @@ class GPUDataHandler: ObservableObject {
                     }
                 })
                 
-//                print(gpuInfoAry)
+                //                print(gpuInfoAry)
             }
         }
     }
